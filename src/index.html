@@ -9,6 +9,29 @@
     <title>Webpack setting</title>
   </head>
   <body>
-
+    <h1>Leaderboard</h1>
+    <section class="main">
+      <div class="leaderboard-list">
+        <div class="lead-head">
+          <h4 class="leader-header">Recent Scores</h4>
+          <button id="refresh" class="refresh">Refresh</button>
+        </div>
+        <ul id="lists">
+          <li class="list-item">Name: 100</li>
+          <li class="list-item">Name: 20</li>
+          <li class="list-item">Name: 50</li>
+          <li class="list-item">Name: 78</li>
+          <li class="list-item">Name: 125</li>
+          <li class="list-item">Name: 77</li>
+          <li class="list-item">Name: 42</li>
+        </ul>
+      </div>
+      <form class="form">
+        <h4 class="form-header">Add your score</h4>
+        <input id="name" type="text" name="name" placeholder="Your name" required>
+        <input id="score" type="number" name="score" placeholder="Your score" required>
+        <button id="submit" type="submit">Submit</button>
+      </form>
+    </section>
   </body>
 </html>
