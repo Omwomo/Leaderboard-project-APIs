@@ -32,7 +32,7 @@ h1 {
   float: right;
   padding-top: 0;
   box-shadow: 3px 5px rgba(0, 0, 0, 0.7);
-  height: fit-content;
+  height: 2rem;
   margin-bottom: -2rem;
 }
 
@@ -42,7 +42,7 @@ h1 {
   width: 100%;
 }
 
-.list-item:nth-child(even){
+.list-item:nth-child(even) {
   background-color: rgb(238, 227, 213);
 }
 
