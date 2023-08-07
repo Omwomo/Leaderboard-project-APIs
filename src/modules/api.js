@@ -17,3 +17,18 @@ const createNewGame = async (gameName) => {
   }
 };
 
+const getAllScores = async (gameId) => {
+  try {
+    const response = await fetch(`${API_BASE_URL}/games/${gameId}/scores/`, {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    });
+
+    const data = await response.json();
+    return data.result;
+  } catch (error) {
+    throw new Error('Error getting scores.');
+  }
+};
