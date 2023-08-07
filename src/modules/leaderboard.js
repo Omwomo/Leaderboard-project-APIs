@@ -17,3 +17,16 @@ const displayScores = (scores) => {
     listElement.appendChild(listItem);
   });
 };
+
+const refreshScores = async () => {
+  try {
+    if (!gameId) {
+      throw new Error('Game ID is not available.');
+    }
+
+    const scores = await getAllScores(gameId);
+    displayScores(scores);
+  } catch (error) {
+    throw new Error('Error refreshing scores.');
+  }
+};
