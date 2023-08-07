@@ -3,7 +3,7 @@
 
 <div align="center">
 
-  <h3><b>Awesome Books with ES6 Modules</b></h3>
+  <h3><b>Leaderboard project API</b></h3>
 
 </div>
 
@@ -33,11 +33,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Webpack-set-up] <a name="about-project"></a>
+# 📖 [Leaderboard project API] <a name="about-project"></a>
 
 > Project description.
 
-**[Webpack-set-up]** This project is about setting up webpack.
+**[Leaderboard project API]** This project is about dealing with API's, posting and fetching data.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -74,9 +74,9 @@
 
 > Description of the project key features.
 
-- **[It has an html and css files.]**
-- **[the project is configured with html and css linters]**
-- **[Github workflow has been properly adhered to in this project.]**
+- **The project is majorly about posting data to the API with unique id created and fetching the data displaying it in the screen**
+- **The project is build using HTML, CSS and JavaScript languanges.**
+- **The project uses gitflow**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -115,8 +115,8 @@ Clone this repository to your desired folder:
 
 
 ```sh
-  cd my-folderfirst-microverse-project
-  git clone https://github.com/Omwomo/Microverse-web-portfolio-project.git
+  cd eugo
+  git clone https://github.com/Omwomo/Leaderboard-project-APIs.git
 ```
 
 
@@ -126,7 +126,7 @@ Install this project with:
 
 
 ```sh
-  cd my-first-microverse-project
+  cd eugo
   gem install
 ```
 
@@ -172,7 +172,7 @@ To run tests, run the following command:
 
 > Description of future features that will be added to the project.
 
-- [ ] **[Add more assets to the webpack setup]
+- [ ] **[Add more styling and animations to te page]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
