@@ -32,3 +32,22 @@ const getAllScores = async (gameId) => {
     throw new Error('Error getting scores.');
   }
 };
+
+const saveScore = async (gameId, user, score) => {
+  try {
+    const response = await fetch(`${API_BASE_URL}/games/${gameId}/scores/`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ user, score }),
+    });
+
+    const data = await response.json();
+    return data.result;
+  } catch (error) {
+    throw new Error('Error saving score.');
+  }
+};
+
+export { createNewGame, getAllScores, saveScore };
