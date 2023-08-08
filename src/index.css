@@ -1,0 +1,59 @@
+body {
+  background-color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+  padding-top: 2rem;
+  padding-left: 3rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  padding-left: 5%;
+}
+
+.leaderboard-list {
+  margin-right: 3rem;
+  width: 40%;
+}
+
+.lead-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  padding-left: 4%;
+}
+
+.refresh {
+  float: right;
+  padding-top: 0;
+  box-shadow: 3px 5px rgba(0, 0, 0, 0.7);
+  height: 2rem;
+  margin-bottom: -2rem;
+}
+
+#lists {
+  list-style: none;
+  border: 3px solid #000;
+  width: 100%;
+}
+
+.list-item:nth-child(even) {
+  background-color: rgb(238, 227, 213);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3rem;
+}
+
+#submit {
+  width: fit-content;
+  margin-left: auto;
+  box-shadow: 3px 5px rgba(0, 0, 0, 0.7);
+}
